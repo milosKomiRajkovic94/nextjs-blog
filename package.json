@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3001"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
@@ -13,5 +13,10 @@
     "react-dom": "17.0.2",
     "remark": "^14.0.1",
     "remark-html": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@types/react": "^17.0.38",
+    "typescript": "^4.5.5"
   }
 }
